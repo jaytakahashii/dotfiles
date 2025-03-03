@@ -7,7 +7,7 @@ alias de='cd ~/Desktop'
 
 alias addalias='vim ~/dotfiles/zsh/aliases.zsh'
 
-alias 42='cd /home/jay/Desktop/42tokyo/42cursus'
+alias 42='cd ~/Documents/42tokyo'
 
 # git
 alias g='git'
