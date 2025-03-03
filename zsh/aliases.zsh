@@ -5,7 +5,7 @@ alias ccwfg='cc -Wall -Wextra -Werror -fsanitize=address,undefined -g'
 # move
 alias de='cd ~/Desktop'
 
-alias addalias='vim ~/ConfigFiles/aliases.zsh'
+alias addalias='vim ~/dotfiles/zsh/aliases.zsh'
 
 alias 42='cd /home/jay/Desktop/42tokyo/42cursus'
 
