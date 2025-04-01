@@ -108,8 +108,11 @@ if [ -f ~/dotfiles/zsh/aliases.zsh ]; then
 fi
 
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+if [ -d "$PYENV_ROOT/bin" ]; then
+    export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init --path)"
+fi
 
 # それぞれ存在するか確認してから追加する
 if [ -d $HOME/bin ]; then
