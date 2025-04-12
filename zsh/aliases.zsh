@@ -37,3 +37,4 @@ alias p='python3'
 
 # command
 alias tree="tree -a -I 'node_modules' -I '.git' -I '_' -I '.obj'"
+alias cpy="pbcopy"
