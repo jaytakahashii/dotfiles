@@ -36,5 +36,6 @@ alias lint='npm run lint:fix'
 alias p='python3'
 
 # command
-alias tree="tree -a -I 'node_modules' -I '.git' -I '_' -I '.obj'"
+alias tree="tree -a -I 'node_modules' -I '.git' -I '_' -I '.obj' -I '.nuxt' -I '.data' -I '.output' -I 'venv' -I '.pytest_cache'"
 alias cpy="pbcopy"
+alias do="cd ~/Documents"
