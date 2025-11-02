@@ -8,7 +8,7 @@ alias de='cd ~/Desktop'
 
 alias addalias='vim ~/dotfiles/zsh/aliases.zsh'
 
-alias 42='cd ~/Documents/42tokyo'
+alias 42='cd ~/Documents/42Paris'
 
 # git
 alias g='git'
@@ -34,9 +34,13 @@ alias 42lint='python3 -m c_formatter_42 -c'
 alias lint='npm run lint:fix'
 
 # python
+alias python='python3'
 alias p='python3'
+alias pip='pip3'
+alias activate='source .venv/bin/activate'
+alias venv='python -m venv .venv'
 
 # command
-alias tree="tree -a --charset unicode -I 'node_modules' -I '.git' -I '_' -I '.obj' -I '.nuxt' -I '.data' -I '.output' -I 'venv' -I '.pytest_cache'"
+alias tree="tree -a --charset unicode -I 'node_modules' -I '.git' -I '_' -I '.obj' -I '.nuxt' -I '.data' -I '.output' -I 'venv' -I '.pytest_cache' -I '.yarn' -I 'dist' -I '.venv' -I '.ruff_cache' -I '__pycache__' -I '.mypy_cache' -I '.gradle'"
 alias cpy="pbcopy"
 alias do="cd ~/Documents"
